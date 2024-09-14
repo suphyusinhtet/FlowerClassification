@@ -19,18 +19,17 @@ my_trained_model_path = 'my_trained_model.h5'
 mobilenetv2_model_path = 'mobilenetv2_model.h5'
 xception_model_path = 'xception_model.h5'
 
-# Download the models if they don't exist locally
-if not os.path.exists(my_trained_model_path):
-    download_model_from_drive(my_trained_model_url, my_trained_model_path)
-if not os.path.exists(mobilenetv2_model_path):
-    download_model_from_drive(mobilenetv2_model_url, mobilenetv2_model_path)
-if not os.path.exists(xception_model_path):
-    download_model_from_drive(xception_model_url, xception_model_path)
+# Function to load models with caching
+@st.cache_resource
+def load_cached_model(url, path):
+    if not os.path.exists(path):
+        download_model_from_drive(url, path)
+    return load_model(path)
 
 # Load the models
-my_trained_model = load_model(my_trained_model_path)
-MobileNetV2_trained_model = load_model(mobilenetv2_model_path)
-Xception_trained_model = load_model(xception_model_path)
+my_trained_model = load_cached_model(my_trained_model_url, my_trained_model_path)
+MobileNetV2_trained_model = load_cached_model(mobilenetv2_model_url, mobilenetv2_model_path)
+Xception_trained_model = load_cached_model(xception_model_url, xception_model_path)
 
 # Streamlit UI for uploading an image
 st.title("Flower Classification with CNN and Transfer Learning")
