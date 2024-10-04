@@ -103,7 +103,7 @@ The models were evaluated using the following metrics:
 
 ### Running the Project
 To run the training script, try in colab:
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">]
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">](https://colab.research.google.com/github/suphyusinhtet/FlowerClassification/blob/main/Classification_of_Flowers_using_CNN_and_Transfer_Learning.ipynb)
 
 To run the Streamlit app:
 ```bash
