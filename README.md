@@ -102,10 +102,9 @@ The models were evaluated using the following metrics:
 3. Download the dataset and place it in the `/flowers` directory.
 
 ### Running the Project
-To run the training script, use the following command:
-```bash
-python classification_of_flowers_using_cnn_and_transfer_learning.py
- ```
+To run the training script, try in colab:
+[<img src="https://colab.research.google.com/assets/colab-badge.svg" align="center">]
+
 To run the Streamlit app:
 ```bash
 streamlit run streamlit.py
