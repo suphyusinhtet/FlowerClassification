@@ -124,10 +124,6 @@ This project demonstrates the potential of **CNN** and **Transfer Learning** in 
 
 Feel free to submit pull requests or open issues if you want to contribute to the project.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ## Acknowledgments🙏
 
 - **Kaggle** for providing the **Flower Classification Dataset**.
