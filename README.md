@@ -1,16 +1,16 @@
 # FlowerClassification
 Classification of flowers using CNN and Transfer Learning
 # Table of Contents
-1. [Overview](#overview-🌟)
-2. [Objectives](#objectives-🎯)
-3. [Structure](#structure-📝)
-4. [Dataset Overview](#dataset-overview-📊)
-5. [Data Preparation](#data-preparation-🛠️)
-6. [CNN Architecture](#cnn-architecture-🤖)
-7. [Transfer Learning Models](#transfer-learning-models-🚀)
-8. [Model Evaluation](#model-evaluation-📊)
-9. [Results and Insights](#results-and-insights-📈)
-10. [Conclusion](#conclusion-🌟)
+1. [Overview](#overview)
+2. [Objectives](#objectives)
+3. [Structure](#structure)
+4. [Dataset Overview](#dataset-overview)
+5. [Data Preparation](#data-preparation)
+6. [CNN Architecture](#cnn-architecture)
+7. [Transfer Learning Models](#transfer-learning-models)
+8. [Model Evaluation](#model-evaluation)
+9. [Results and Insights](#results-and-insights)
+10. [Conclusion](#conclusion)
 
 # 🌸 Flower Classification Using CNN and Transfer Learning
 
