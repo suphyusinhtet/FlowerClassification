@@ -1,7 +1,7 @@
 # FlowerClassification
 Classification of flowers using CNN and Transfer Learning
 # Table of Contents
-1. [Overview](#overview-🌟)
+1. [Overview](#overview)
 2. [Objectives](#objectives-🎯)
 3. [Structure](#structure-📝)
 4. [Dataset Overview](#dataset-📊)
@@ -14,7 +14,7 @@ Classification of flowers using CNN and Transfer Learning
 
 # 🌸 Flower Classification Using CNN and Transfer Learning
 
-## Overview 🌟
+## Overview🌟
 
 This project focuses on classifying images of flowers using Convolutional Neural Networks (CNN) and Transfer Learning techniques. We work with pre-trained models like **MobileNetV2** and **Xception** to enhance performance and accuracy. The main goal is to develop a model that can identify different flower types with high precision.
 
