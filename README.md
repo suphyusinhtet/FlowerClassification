@@ -33,10 +33,10 @@ The dataset used is the **Flower Classification Dataset** from Kaggle, consistin
 - **Rose**
 - **Sunflower**
 - **Tulip**
-- You can download the dataset [here]( https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).
+
+You can download the dataset [here]( https://www.kaggle.com/datasets/alxmamaev/flowers-recognition).
 
 The dataset is split into training and validation sets, with 80% of the data used for training and 20% for validation.
-
 
 ## Models Implemented🤖
 
